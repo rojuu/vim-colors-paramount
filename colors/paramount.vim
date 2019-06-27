@@ -60,7 +60,7 @@ if &background == "dark"
   let s:cyan            = s:light_cyan
   let s:green           = s:light_green
   let s:red             = s:light_red
-  let s:visual          = s:light_purple
+  let s:visual          = s:medium_gray
   let s:yellow          = s:light_yellow
 else
   let s:bg              = s:actual_white
@@ -72,7 +72,7 @@ else
   let s:cyan            = s:dark_cyan
   let s:green           = s:dark_green
   let s:red             = s:dark_red
-  let s:visual          = s:dark_purple
+  let s:visual          = s:lighter_gray
   let s:yellow          = s:dark_yellow
 endif
 
