@@ -109,7 +109,7 @@ hi! link String           Constant
 hi! link Identifier       Normal
 hi! link Function         Identifier
 
-call s:h("Statement",     {"fg": s:norm_subtle})
+call s:h("Statement",     {"fg": s:norm})
 hi! link Conditonal       Statement
 hi! link Repeat           Statement
 hi! link Label            Statement
