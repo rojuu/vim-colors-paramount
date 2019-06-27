@@ -55,7 +55,7 @@ if &background == "dark"
   let s:bg_subtle       = s:lighter_black
   let s:bg_very_subtle  = s:subtle_black
   let s:norm            = s:lighter_gray
-  let s:norm_subtle     = { "gui": "#e2edff", "cterm": "243" } " s:actual_white
+  let s:norm_subtle     = s:lightest_gray
   let s:purple          = s:light_purple
   let s:cyan            = s:light_cyan
   let s:green           = s:light_green
