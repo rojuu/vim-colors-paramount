@@ -129,7 +129,7 @@ hi! link StorageClass     Type
 hi! link Structure        Type
 hi! link Typedef          Type
 
-call s:h("Special",       {"fg": s:norm_subtle, "gui": "italic"})
+call s:h("Special",       {"fg": s:norm})
 hi! link SpecialChar      Special
 hi! link Tag              Special
 hi! link Delimiter        Special
